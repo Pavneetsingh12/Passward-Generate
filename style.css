@@ -1,0 +1,62 @@
+.buttons #1st:hover,
+.buttons #2nd:hover {
+    background-color: #273549;
+    color: #55F991;
+}
+body{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#white{
+    color: rgb(255, 255, 255);
+}
+#Green{
+    color: #4ADF86;
+}
+div{
+    background-color: #2F3E53;
+    text-align:left;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    max-width: 90vw;
+    width: 100%;
+    box-sizing: border-box;
+}
+p{
+    color: rgb(255, 255, 255);
+}
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #283649;
+    color: white;
+    flex-wrap: wrap;
+}
+button{
+    background-color: #4ADF86;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    min-width: 120px;
+    box-sizing: border-box;
+}
+button:hover{
+    background-color: #3ac76d;
+}
+#black{
+    color: black;
+    background-color: #4ADF86;  
+}
